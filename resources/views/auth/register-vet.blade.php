@@ -176,20 +176,6 @@ select{cursor:pointer;color:var(--text);}
       </div>
 
       <div class="form-group">
-        <label>Specialization</label>
-        <select name="specialization">
-          <option value="">Select specialization</option>
-          <option value="general" {{ old('specialization') == 'general' ? 'selected' : '' }}>General Practice</option>
-          <option value="surgery" {{ old('specialization') == 'surgery' ? 'selected' : '' }}>Surgery</option>
-          <option value="dermatology" {{ old('specialization') == 'dermatology' ? 'selected' : '' }}>Dermatology</option>
-          <option value="dentistry" {{ old('specialization') == 'dentistry' ? 'selected' : '' }}>Dentistry</option>
-          <option value="cardiology" {{ old('specialization') == 'cardiology' ? 'selected' : '' }}>Cardiology</option>
-          <option value="orthopedics" {{ old('specialization') == 'orthopedics' ? 'selected' : '' }}>Orthopedics</option>
-          <option value="other" {{ old('specialization') == 'other' ? 'selected' : '' }}>Other</option>
-        </select>
-      </div>
-
-      <div class="form-group">
         <label>Clinic / Hospital Name</label>
         <input type="text" name="clinic_name" placeholder="e.g. PetCare Clinic"
                value="{{ old('clinic_name') }}"/>
