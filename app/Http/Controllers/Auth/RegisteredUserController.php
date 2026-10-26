@@ -65,7 +65,6 @@ class RegisteredUserController extends Controller
 
             // Vet fields
             'license_number' => $request->role === 'vet' ? $request->license_number : null,
-            'specialization' => $request->role === 'vet' ? $request->specialization : null,
             'clinic_name'    => $request->role === 'vet' ? $request->clinic_name : null,
 
             // Owner fields

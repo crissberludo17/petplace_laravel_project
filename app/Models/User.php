@@ -24,7 +24,6 @@ class User extends Authenticatable
 
         // Vet fields
         'license_number',
-        'specialization',
         'clinic_name',
 
         // Owner fields
