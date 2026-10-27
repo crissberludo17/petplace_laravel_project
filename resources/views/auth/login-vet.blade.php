@@ -132,7 +132,7 @@ input[type="password"] {
     background: #faf8ff;
     border: 1.5px solid var(--border);
     border-radius: 10px;
-    padding: 11px 44px 11px 14px !important;
+    padding: 11px 44px 11px 14px !important;git add .
     color: var(--text);
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
