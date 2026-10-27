@@ -119,6 +119,27 @@ input::placeholder{color:var(--text3);}
   transition:color 0.15s;
 }
 .pw-toggle:hover{color:var(--accent);}
+
+/* Keep input styling consistent between password and text type */
+input[type="text"],
+input[type="password"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.pw-wrap input {
+    width: 100%;
+    background: #faf8ff;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 11px 44px 11px 14px !important;
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
 </style>
 </head>
 <body>

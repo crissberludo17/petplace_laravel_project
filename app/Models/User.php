@@ -13,25 +13,12 @@ class User extends Authenticatable
     /**
      * The attributes that are mass assignable.
      */
-    protected $fillable = [
-        // Basic
-        'name',
-        'first_name',
-        'last_name',
-        'email',
-        'password',
-        'role',
-
-        // Vet fields
-        'license_number',
-        'clinic_name',
-
-        // Owner fields
-        'phone',
-        'pet_name',
-        'pet_type',
-    ];
-
+protected $fillable = [
+    'name',
+    'email',
+    'password',
+    'role',
+];
     /**
      * The attributes that should be hidden for serialization.
      */
